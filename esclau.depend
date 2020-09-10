@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1558542130 source:/home/laura/udg/1er/MTP2/esclau/carta.cpp
+	"carta.h"
+	<iostream>
+
+1558542130 /home/laura/udg/1er/MTP2/esclau/carta.h
+
+1558542130 source:/home/laura/udg/1er/MTP2/esclau/conjuntcartes.cpp
+	"conjuntcartes.h"
+	<iostream>
+
+1558542130 /home/laura/udg/1er/MTP2/esclau/conjuntcartes.h
+	"carta.h"
+
+1558542130 source:/home/laura/udg/1er/MTP2/esclau/jugador.cpp
+	"jugador.h"
+	"conjuntcartes.h"
+	"jugada.h"
+
+1558599870 /home/laura/udg/1er/MTP2/esclau/jugador.h
+	"conjuntcartes.h"
+	"jugada.h"
+	<iostream>
+
+1558599870 source:/home/laura/udg/1er/MTP2/esclau/joc.cpp
+	"joc.h"
+	"conjuntcartes.h"
+	"jugador.h"
+	"jugada.h"
+
+1558599870 /home/laura/udg/1er/MTP2/esclau/joc.h
+	"joc.h"
+	"jugador.h"
+	"pilacartes.h"
+	"jugada.h"
+
+1558542130 /home/laura/udg/1er/MTP2/esclau/pilacartes.h
+	"carta.h"
+	<iostream>
+
+1558374901 source:/home/laura/udg/1er/MTP2/esclau/main.cpp
+	<iostream>
+	"joc.h"
+
+1558542130 source:/home/laura/udg/1er/MTP2/esclau/pilacartes.cpp
+	"carta.h"
+	"pilacartes.h"
+
+1558542130 /home/laura/udg/1er/MTP2/esclau/jugada.h
+	<iostream>
+
+1558369858 source:/home/laura/udg/1er/MTP2/esclau/jugada.cpp
+	"jugada.h"
+
