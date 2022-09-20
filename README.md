@@ -95,7 +95,7 @@ XXX
 
 Very soon everything will be in English (messages and comments).
 
-### BRIEF EXECUTION (INCOMPLETED)
+### BRIEF EXECUTION (INCOMPLETE)
 
 ```
 *** JOC DE L'ESCLAU ***
