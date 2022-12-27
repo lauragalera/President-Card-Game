@@ -93,8 +93,6 @@ XXX
 *** FINAL DEL JOC ***
 ```
 
-Very soon everything will be in English (messages and comments).
-
 ### BRIEF EXECUTION (INCOMPLETE)
 
 ```
