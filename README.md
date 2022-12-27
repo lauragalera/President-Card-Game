@@ -1,8 +1,8 @@
 # President Card Game
-[President](https://en.wikipedia.org/wiki/President_(card_game)) (also known as Capitalism) is a shedding card game for 3 or more, in which the players race to get rid of all of the cards. 
+[President](https://en.wikipedia.org/wiki/President_(card_game)) (also known as Capitalism) is a shedding card game for 3 or more, in which the players race to get rid of all of the cards in their hands in order to become "president" in the following round.
 
 ### RULES
-Rules may vary from version to version. For this one, the cards are Spanish-suited cards.
+Rules may vary from version to version. In this program, the cards are Spanish-suited cards.
 <ul>
 <li> The value of the cards, from the highest to the lowest, is as follows: twos,
 aces, kings, horses, jacks, 9, 8, 7, 6, 5, 4, 3
