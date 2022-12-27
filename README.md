@@ -4,7 +4,7 @@
 ### RULES
 Rules may vary from version to version. In this program, the cards are Spanish-suited cards.
 <ul>
-<li> The value of the cards, from the highest to the lowest, is as follows: twos,
+<li> The value of the cards, from highest to lowest, is twos,
 aces, kings, horses, jacks, 9, 8, 7, 6, 5, 4, 3
 </li>
 <li> A player starts by drawing a card, pair, three or more
