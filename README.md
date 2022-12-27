@@ -2,31 +2,30 @@
 [President](https://en.wikipedia.org/wiki/President_(card_game)) (also known as Capitalism) is a shedding card game for 3 or more, in which the players race to get rid of all of the cards in their hands in order to become "president" in the following round.
 
 ### RULES
-Rules may vary from version to version. In this program, the cards are Spanish-suited cards.
+Rules may vary depending on the version. In this program, the cards are Spanish-suited cards.
 <ul>
 <li> The value of the cards, from highest to lowest, is twos,
-aces, kings, horses, jacks, 9, 8, 7, 6, 5, 4, 3
+aces, kings, horses, jacks, 9, 8, 7, 6, 5, 4, 3.
 </li>
 <li> A player starts by drawing a card, pair, three or more
 cards of the same number, and the following
-players, in order, must draw cards of higher value, respecting the number of cards played
+players must draw cards of higher value respecting the number of cards played.
 </li>
-<li> When nobody can draw more cards, that last player starts the next turn,
-rolling the cards he wants.
+<li> When nobody can draw more cards, the last player starts the next turn.
 </li>
 <li> 
-This process is repeated until there are no players left.
+This process is repeated until there are no players with cards.
 </li>
 <li>
 At the end of the round, the first one to win is named
-"King" (or "President" or "Capitalist" depending on the variant), the rest
+"King" (or "President"), and the loser is baptized "Slave". The rest
 up to half of the players are "Nobles", from half to the
-last are "vassals" and the last is the "slave". In case there is an odd number of players, the player who is in the
-central position is the "Bourgeois"
+last are "Vassals". In case there is an odd number of players, the player who is in the
+middle is the "Bourgeois".
 </li>
 <li> Once the cards are dealt for the next round, and before playing, the "Slave" must give his best
 cards to the "President", who gives him the worst ones. The first
-"Noble" and the last "Vassall" also change cards, but one
+"Noble" and the last "Vassal" also change cards, but one
 less, and so on for all players except the
 "Bourgeois".
 </li>
@@ -34,7 +33,7 @@ less, and so on for all players except the
 
 ### MESSAGES
 
-First message asks for the seed, # of players, their names and # of decks:
+First message asks for the seed, number of players, their names and number of decks:
 
 ```
 *** JOC DE L'ESCLAU ***
@@ -58,8 +57,9 @@ QUINES CARTES VOLS TIRAR?
 Q N
 TIRADA: YYY
 ```
+It displays the name of the player and three messages. "MA" is the curent hand of the player (g.e. card [4O] is four of "Oros"). The mapping is O -> Oros, E -> Espadas, C -> Copas, B -> Bastos. The second message asks which cards want to be played. The user enters the quantity and then the card. Finally, "TIRADA" shows the cards from the player's hand drawn. 
 
-The player enters 1 1 to see the last cards played, and 0 0 to skip his turn.
+The player can enter 1 1 to see the last cards played, and 0 0 to skip his turn.
 
 By the end of the game, the ranking is displayed and there is the chance of starting a new game.
 
@@ -72,7 +72,7 @@ VASSALL: [NOM_JUGADOR]
 ESCLAU: [NOM_JUGADOR]
 ```
 
-Before the next game, the program shows which players must swap cards, folloed by which cards they want to swap.
+Before, the program shows which players must swap cards, followed by which cards they want to swap.
 
 ```
 EL JUGADOR/A [NOM_JUGADOR1] I EL JUGADOR/A [NOM_JUGADOR2]
